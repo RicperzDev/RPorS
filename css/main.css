@@ -12,3 +12,40 @@ body {
 	height: 100vh;
 }
 
+/* Header */
+
+#headerContainer {
+	width: 100%;
+	height: 10%;
+	background: #e74c3c;
+	color: white;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#headerContainer p {
+	font-size: 2rem;
+	margin-top: 0.8rem;
+}
+
+#user {
+	margin-right: 1rem;
+}
+
+#cpu {
+	margin-left: 1rem;
+}
+
+
+#score {
+	width: 7rem;
+	height: 4rem;
+	font-size: 2rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
