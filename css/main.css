@@ -96,3 +96,36 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+/* SecondScreen */
+
+#result {
+	width: 70%;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#versus {
+	height: 10rem;
+}
+
+#back {
+	width: 8rem;
+	font-size: 1.5rem;
+	margin-top: 8rem;
+	margin-bottom: -5rem;
+}
+
+/* Effects */
+
+.win {
+	background: green;
+	border-radius: 100%;
+}
+
+.lose {
+	background: red;
+	border-radius: 100%
+}
