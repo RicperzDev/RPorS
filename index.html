@@ -10,16 +10,16 @@
 
 	<header id="headerContainer">
 		<p id="user">You</p>
-		<div class="bg-dark" id="score">0-0</div>
+		<div class="bg-dark" id="score"><span id="userScore">0</span>-<span id="cpuScore">0</span></div>
 		<p id="cpu">Computer</p>
 	</header>
 
 	<section id="main">
 		<h2 class="display-4" id="title">Choose your move</h2>
 		<div id="options">
-			<img class="imgBorder" src="img/piedra.png">
-			<img class="imgBorder" src="img/papel.png">
-			<img class="imgBorder" src="img/tijera.png">
+			<img class="imgBorder" id="roca" src="img/piedra.png" onclick="userSelection('piedra')">
+			<img class="imgBorder" id="hoja" src="img/papel.png" onclick="userSelection('papel')">
+			<img class="imgBorder" id="cortadora" src="img/tijera.png" onclick="userSelection('tijera')">
 		</div>
 	</section>
 
